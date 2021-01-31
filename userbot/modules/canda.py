@@ -239,5 +239,17 @@ CMD_HELP.update({
 \n\n`.tbat`\
 \nUsage: Tobat woi tobat.\
 \n\n`.gbut`\
-\nUsage: Buat lu pada yang gabut."
+\nUsage: Buat lu pada yang gabut.
+\n\n`.bagi`\
+\nUsage: bagi harem.\
+\n\n`.sad`\
+\nUsage: sad ya sad.\
+\n\n`.beban`\
+\nUsage: dasar beban.\
+\n\n`.newmem`\
+\nUsage: sambut newmem.\
+\n\n`.malan`\
+\nUsage: ucapan malam.\
+\n\n`.ohayou`\
+\nUsage: pagii.\"
 })
