@@ -34,6 +34,40 @@ async def typewriter(typew):
 # Owner @erruuu
 
 
+@register(outgoing=True, pattern='^.newmem(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Hallo**")
+    sleep(2)
+    await typew.edit("**Selamat bergabung!**")
+    sleep(2)
+    await typew.edit("**Salken yaa**")
+    sleep(2)
+    await typew.edit("**Semoga betah disini**")
+# Owner @erruuu
+
+
+@register(outgoing=True, pattern='^.newmem(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Konbanwa**")
+    sleep(2)
+    await typew.edit("**Selamat malam semuanya**")
+    sleep(2)
+    await typew.edit("**Tidur-tidur**")
+    sleep(2)
+    await typew.edit("**Jaga kesehatan mu**")
+    sleep(2)
+    await typew.edit("**Karena jika, tidak ada yg perduli denganmu**")
+    sleep(2)
+    await typew.edit("**Xixixiii**")
+    sleep(2)
+    await typew.edit("**Canda bang hehe...**")
+# Owner @erruuu
+
+
 @register(outgoing=True, pattern='^.g(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
