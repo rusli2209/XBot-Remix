@@ -20,7 +20,7 @@ async def typewriter(typew):
 # Owner @erruuu
 
 
-@register(outgoing=True, pattern='^.bagi(?: |$)(.*)')
+@register(outgoing=True, pattern='^.sad(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
