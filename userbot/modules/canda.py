@@ -48,7 +48,7 @@ async def typewriter(typew):
 # Owner @erruuu
 
 
-@register(outgoing=True, pattern='^.newmem(?: |$)(.*)')
+@register(outgoing=True, pattern='^.malam(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
