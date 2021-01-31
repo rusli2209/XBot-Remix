@@ -58,13 +58,19 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Tidur-tidur**")
     sleep(2)
-    await typew.edit("**Jaga kesehatan mu**")
+    await typew.edit("**Jaga kesehatan lu**")
     sleep(2)
-    await typew.edit("**Karena jika, tidak ada yg perduli denganmu**")
+    await typew.edit("**Soalnya kalo sakit ga ada yg peduli**")
     sleep(2)
     await typew.edit("**Xixixiii**")
     sleep(2)
-    await typew.edit("**Canda bang hehe...**")
+    await typew.edit("**Canda kak hehe**")
+    sleep(2)
+    await typew.edit("**Ada aku yang peduli kok...**")
+    sleep(2)
+    await typew.edit("**Tapi boong**")
+    sleep(2)
+    await typew.edit("**sekian...**")
 # Owner @erruuu
 
 
