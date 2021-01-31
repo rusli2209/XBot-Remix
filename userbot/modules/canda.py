@@ -228,6 +228,8 @@ CMD_HELP.update({
     "canda":
     "`.g`\
 \nUsage: Untuk nyindir laki.\
+\n\n`Baru`\
+\nCMD: .bagi .sad .newmem .beban .malam. ohayou\
 \n\n`.c`\
 \nUsage: Untuk nyindir cewe.\
 \n\n`.brokn`\
