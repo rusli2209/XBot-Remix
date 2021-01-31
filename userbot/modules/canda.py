@@ -8,15 +8,15 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
 
 
-@register(outgoing=True, pattern='^.g(?: |$)(.*)')
+@register(outgoing=True, pattern='^.bagi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
     await typew.edit(f"**Woii...**")
     sleep(2)
-    await typew.edit("`Ganteng doang`")
+    await typew.edit("`bagi harem dong`")
     sleep(2)
-    await typew.edit("`Jemput cewe depan gang`")
+    await typew.edit("`punya gw masih dikit hiks`")
 # Owner @Si_Dian
 
 
