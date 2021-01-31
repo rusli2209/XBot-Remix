@@ -30,7 +30,25 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Karena cinta tidak harus memiliki.**")
     sleep(2)
-    await typew.edit("**Hikscrot...**")
+    await typew.edit("**Hiksss...**")
+# Owner @erruuu
+
+
+@register(outgoing=True, pattern='^.beban(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Dari 7,4 miliar**")
+    sleep(2)
+    await typew.edit("**sampah di bumi**")
+    sleep(2)
+    await typew.edit("**eh maksudnya manusia di bumi**")
+    sleep(2)
+    await typew.edit("**hanya kamu yang menjadi beban**")
+    sleep(2)
+    await typew.edit("**di kehidupan alam ini**")
+    sleep(2)
+    await typew.edit("**canda wkwk, jangan baper...**")
 # Owner @erruuu
 
 
@@ -62,7 +80,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Soalnya kalo sakit ga ada yg peduli**")
     sleep(2)
-    await typew.edit("**Xixixiii**")
+    await typew.edit("**Sad...**")
     sleep(2)
     await typew.edit("**Canda kak hehe**")
     sleep(2)
@@ -70,7 +88,23 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Tapi boong**")
     sleep(2)
-    await typew.edit("**sekian...**")
+    await typew.edit("**Xixixii...**")
+# Owner @erruuu
+
+
+@register(outgoing=True, pattern='^.ohayou(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Ohayou**")
+    sleep(2)
+    await typew.edit("**Sekai**")
+    sleep(2)
+    await typew.edit("**Good Morning**")
+    sleep(2)
+    await typew.edit("**World**")
+    sleep(2)
+    await typew.edit("**Pagii**")
 # Owner @erruuu
 
 
