@@ -14,10 +14,24 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit(f"**Woii...**")
     sleep(2)
-    await typew.edit("`bagi harem dong`")
+    await typew.edit("**Bagi harem nya dong**")
     sleep(2)
-    await typew.edit("`punya gw masih dikit hiks`")
-# Owner @Si_Dian
+    await typew.edit("**Punya gw masih dikit hiks**")
+# Owner @erruuu
+
+
+@register(outgoing=True, pattern='^.bagi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    sleep(1)
+    await typew.edit(f"**Aku cinta dia**")
+    sleep(2)
+    await typew.edit("**Walau dia tidak cinta aku**")
+    sleep(2)
+    await typew.edit("**Karena cinta tidak harus memiliki.**")
+    sleep(2)
+    await typew.edit("**Hikscrot...**")
+# Owner @erruuu
 
 
 @register(outgoing=True, pattern='^.g(?: |$)(.*)')
