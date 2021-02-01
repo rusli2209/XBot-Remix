@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**UPDATE Terbaru Untuk 🔥XBOT-REMIX🔥 [{ac_br}]:\n\nPERUBAHAN:**\n`{changelog}`'
+        changelog_str = f'**UPDATE TERBARU 🔥XBOT-REMIX🔥 [BOT AING]:\n\nPERUBAHAN:**\nRAHASIA :V`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog is too big, view the file to see it.`")
             file = open("output.txt", "w+")
@@ -215,9 +215,9 @@ async def upstream(event):
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
         await event.edit('`Proses Update XBOT-REMIX, ....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, loading....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, updating....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, silahkan tunggu....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, bentar....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, bentar lagi....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, tunggu bentar....🛠️`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
