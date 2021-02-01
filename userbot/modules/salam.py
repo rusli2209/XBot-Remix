@@ -11,10 +11,8 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 @register(outgoing=True, pattern='^p(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit(f"**Misi lort, ikut nimbrung**")
-    sleep(2)
-    await typew.edit("**Assalamualaikum...**")
+    sleep(0.1)
+    await typew.edit(f"**Assalamu'alaikum**")
 # Owner @eruuu
 
 
@@ -23,20 +21,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("**Jawab Salam Dong...**")
-    sleep(1)
     await typew.edit("**Wa'alaikumsalam...**")
-# Owner @erruuu
-
-
-
-@register(outgoing=True, pattern='^ll(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    sleep(1)
-    await typew.edit("*Jawab Salam Dong...*")
-    sleep(1)
-    await typew.edit("**Wa'alaikumsalam lort**")
 # Owner @erruuu
 
 
@@ -70,8 +55,8 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "salam":
-    "`P`\
+    "`p`\
 \nUsage: Untuk Memberi salam. Other CMD : sere sero xx\
-\n\n`L`\
+\n\n`l`\
 \nUsage: Untuk Menjawab Salam."
 })
