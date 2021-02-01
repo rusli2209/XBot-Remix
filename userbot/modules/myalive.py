@@ -2,6 +2,19 @@ from time import sleep
 from userbot.events import register
 
 
+@register(pattern='^.boxs(?: |$)(.*)', outgoing=True)
+async def _(event):
+    if event.fwd_from:
+        return
+    event = await edit_or_reply(event, "`boxs...`")
+    deq = deque(list("🟥🟧🟨🟩🟦🟪🟫⬛⬜"))
+    for _ in range(999):
+        await asyncio.sleep(0.3)
+        await event.edit("".join(deq))
+        deq.rotate(1)
+# Create by myself @localheart
+
+
 @register(outgoing=True, pattern='^.akmal(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
