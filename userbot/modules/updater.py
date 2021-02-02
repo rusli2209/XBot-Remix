@@ -215,9 +215,9 @@ async def upstream(event):
             '`Force-Syncing to latest stable userbot code, please wait...`')
     else:
         await event.edit('`Proses Update XBOT-REMIX, ....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, mau ngapain om....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, om jangan om....🛠️`')
-        await event.edit('`Proses Update XBOT-REMIX, ommm....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, bentar....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, bentar lagi....🛠️`')
+        await event.edit('`Proses Update XBOT-REMIX, bentar....🛠️`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
