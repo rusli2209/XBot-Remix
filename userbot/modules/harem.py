@@ -12,7 +12,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc artoria shiki yi medb Nightingale yu ke i ii iii Hokusai Carmilla Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar williams bradamante brynhildr tomoe gozen irisviel von katou medusa parvati orion opera stheno euryale nero enkidu hassan yang abigail")
+    await typew.edit("/protecc quetzalcoatl jinako chevalier artoria qin rhyme matahari shiki yi medb Nightingale yu ke i ii iii Hokusai Carmilla mata Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar williams jeanne jane bradamante brynhildr tomoe gozen irisviel von katou medusa parvati orion opera stheno euryale nero enkidu hassan yang abigail")
 # Owner @erruuu
 
 
@@ -38,7 +38,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc hikari hikari oono kirigaya mio nao ruka rikka erice erika chihiro nakano uesugi yui yukino medusa mito mii boudica akari tomoe mami papi kagome beatrice eru kyons sister sae cabashira ichinose rias kanao akeno futaba koneko meteora aoko kyouko shinku youmu ryouko asuna haruhi natsumi lelei margaret")
+    await typew.edit("/protecc hikari hikari oono kirigaya mio nao ruka rikka erice erika chihiro nakano uesugi yui yukino hanyuu medusa mito mii boudica akari tomoe mami papi kagome beatrice eru kyons sister sae cabashira ichinose rias kanao akeno futaba koneko meteora aoko kyouko shinku youmu ryouko asuna haruhi natsumi lelei margaret")
 # Owner @erruuu
 
 
