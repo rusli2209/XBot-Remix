@@ -21,7 +21,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc arthur gilgamesh edward eric arjuna gaius ivan yu yi mephistopheles chiron lancelot the Siegfried sieg spartacus drake romulus sakata antonio helmes red yagyu mac cumhaill Henry henri roberts paris columbus bedivere amakusa okada hans prince iskandar tristan Shi i ii iii william geronimo hood georgios hijikata caligula alexander li lu lobo aesclepius Darius solomon Eric hassan chen ashwatthama jason james Charles enkidu asterios Asclepius yan cu merlin  mozart Angra David de heracles karna fuuma tawara arash ozymandias odysseus opera orion")
+    await typew.edit("/protecc arthur gilgamesh edward eric arjuna gaius ivan yu yi mephistopheles benkei chiron lancelot the Siegfried sieg spartacus drake romulus sakata antonio helmes red yagyu mac cumhaill Henry henri roberts paris columbus bedivere amakusa okada hans prince iskandar tristan Shi i ii iii william geronimo hood georgios hijikata caligula alexander li lu lobo aesclepius Darius solomon Eric hassan chen ashwatthama jason james Charles enkidu asterios Asclepius yan cu merlin  mozart Angra David de heracles karna fuuma tawara arash ozymandias odysseus opera orion")
 # Owner @erruuu
 
 
