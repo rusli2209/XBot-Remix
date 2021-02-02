@@ -44,10 +44,12 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "harem":
-    "`.serv`\
-\nUsage: Untuk protecc servant.\
-\n\n`husb`\
-\nUsage: Untuk protecc husbu.\
+    "`s`\
+\nUsage: Protecc servant.\
+\n\n`h`\
+\nUsage: Protecc husbu.\
+\n\n`ll`\
+\nUsage: Protecc loli.\
 \n\n`xx`\
-\nUsage: Untuk protecc servant char mysterious."
+\nUsage: Protecc servant char mysterious."
 })
