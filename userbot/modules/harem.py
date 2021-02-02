@@ -12,7 +12,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc artoria shiki yi medb Nightingale yu ke i ii iii Hokusai Carmilla Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar bradamante brynhildr tomoe gozen irisviel von katou medusa parvati opera stheno euryale nero enkidu yang")
+    await typew.edit("/protecc artoria shiki yi medb Nightingale yu ke i ii iii Hokusai Carmilla Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar williams bradamante brynhildr tomoe gozen irisviel von katou medusa parvati orion opera stheno euryale nero enkidu hassan yang abigail")
 # Owner @erruuu
 
 
@@ -21,7 +21,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc arthur gilgamesh edward eric ivan yu yi mephistopheles lancelot Siegfried sieg drake romulus yagyu mac cumhaill Henry Shi i ii iii william Darius solomon Eric Charles Asclepius Mozart Angra David de")
+    await typew.edit("/protecc arthur gilgamesh edward eric arjuna gaius ivan yu yi mephistopheles chiron lancelot the Siegfried sieg drake romulus sakata antonio helmes red yagyu mac cumhaill Henry henri roberts paris columbus bedivere amakusa okada hans prince iskandar tristan Shi i ii iii william geronimo hood georgios hijikata caligula alexander li lu lobo aesclepius Darius solomon Eric hassan chen ashwatthama jason james Charles enkidu asterios Asclepius yan cu merlin  mozart Angra David de heracles karna fuuma tawara arash ozymandias odysseus opera orion")
 # Owner @erruuu
 
 
@@ -38,7 +38,7 @@ async def typewriter(typew):
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc hikari hikari oono kirigaya mio nao ruka rikka erice erika chihiro nakano uesugi yui medusa mito mii boudica akari tomoe mami papi kagome beatrice eru kyons sister sae cabashira ichinose rias kanao akeno futaba koneko meteora kyouko shinku youmu ryouko asuna haruhi natsumi lelei margaret")
+    await typew.edit("/protecc hikari hikari oono kirigaya mio nao ruka rikka erice erika chihiro nakano uesugi yui medusa mito mii boudica akari tomoe mami papi kagome beatrice eru kyons sister sae cabashira ichinose rias kanao akeno futaba koneko meteora aoko kyouko shinku youmu ryouko asuna haruhi natsumi lelei margaret")
 # Owner @erruuu
 
 
