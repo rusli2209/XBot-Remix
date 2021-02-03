@@ -12,7 +12,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(0.000001)
-    await typew.edit("/protecc quetzalcoatl jinako chevalier artoria qin rhyme matahari shiki yi medb Nightingale yu ke i ii iii Hokusai Carmilla mata Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar williams jeanne jane bradamante brynhildr tomoe gozen irisviel von katou medusa parvati orion opera stheno euryale nero enkidu hassan yang abigail")
+    await typew.edit("/protecc quetzalcoatl jinako chevalier artoria qin rhyme matahari shiki yi medb osakabehime kiyohime Nightingale yu ke i ii iii Hokusai Carmilla mata Mysterious Mae drake europa paris boudica chacha circe medea murasaki kiara ishtar williams jeanne jane bradamante brynhildr tomoe gozen irisviel von katou medusa parvati orion opera stheno euryale nero enkidu hassan yang abigail")
 # Owner @erruuu
 
 
