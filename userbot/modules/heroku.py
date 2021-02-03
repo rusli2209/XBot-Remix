@@ -252,7 +252,7 @@ async def dyno_usage(dyno):
                 "**Dyno Usage**:\n\n╭━━━━━━━━━━━━━━━━━━━━╮\n"
                 f"-> `Penggunaan Dyno `  **Bot Ini**:\n"
                 f"    •**{AppHours} jam - "
-                f"{AppMinutes} menit - {AppSeconds} detik**"
+                f"{AppMinutes} menit**"
                 "\n ◐━─━─━─━─━──━─━─━─━─━◐\n"
                 "-> `Sisa Dyno Bulan Ini`:\n"
                 f"    •**5{hours} jam - {minutes} menit  "
